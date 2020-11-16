@@ -1,0 +1,13 @@
+D:\repos\C-Sharp\Practice\ExLINQ\bin\Debug\netcoreapp3.1\ExLINQ.exe
+D:\repos\C-Sharp\Practice\ExLINQ\bin\Debug\netcoreapp3.1\ExLINQ.deps.json
+D:\repos\C-Sharp\Practice\ExLINQ\bin\Debug\netcoreapp3.1\ExLINQ.runtimeconfig.json
+D:\repos\C-Sharp\Practice\ExLINQ\bin\Debug\netcoreapp3.1\ExLINQ.runtimeconfig.dev.json
+D:\repos\C-Sharp\Practice\ExLINQ\bin\Debug\netcoreapp3.1\ExLINQ.dll
+D:\repos\C-Sharp\Practice\ExLINQ\bin\Debug\netcoreapp3.1\ExLINQ.pdb
+D:\repos\C-Sharp\Practice\ExLINQ\obj\Debug\netcoreapp3.1\ExLINQ.csprojAssemblyReference.cache
+D:\repos\C-Sharp\Practice\ExLINQ\obj\Debug\netcoreapp3.1\ExLINQ.AssemblyInfoInputs.cache
+D:\repos\C-Sharp\Practice\ExLINQ\obj\Debug\netcoreapp3.1\ExLINQ.AssemblyInfo.cs
+D:\repos\C-Sharp\Practice\ExLINQ\obj\Debug\netcoreapp3.1\ExLINQ.csproj.CoreCompileInputs.cache
+D:\repos\C-Sharp\Practice\ExLINQ\obj\Debug\netcoreapp3.1\ExLINQ.dll
+D:\repos\C-Sharp\Practice\ExLINQ\obj\Debug\netcoreapp3.1\ExLINQ.pdb
+D:\repos\C-Sharp\Practice\ExLINQ\obj\Debug\netcoreapp3.1\ExLINQ.genruntimeconfig.cache
