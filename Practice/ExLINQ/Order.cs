@@ -8,6 +8,6 @@ namespace ExLINQ
     {
         public long ID { get; set; }
         public string UserID { get; set; }
-        public List<OrderItem> OrderItems{get;set;}
+        public List<OrderItem> OrderItems{ get; set;}
     }
 }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿#define USE_WHERE
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -10,12 +12,14 @@ namespace ExLINQ
         {
             List<Order> orders = getOrders();
 
-            Order peterFirstOrder = orders.Where(o=> o.UserID == "Peter").FirstOrDefault();
+            Order peterFirstOrder;
 
-            Console.WriteLine($"Peter is first order: {peterFirstOrder.ID}");
 
+#if USE_WHERE
+            peterFirstOrder = orders.Where(o=> o.UserID == "Peter").FirstOrDefault();
+#else
             peterFirstOrder = orders.FirstOrDefault(o => o.UserID == "Peter");
-
+#endif
             Console.WriteLine($"Peter is first order: {peterFirstOrder.ID}");
 
             List<Order> petersOrders = orders.Where(o => o.UserID == "Peter").ToList();
@@ -43,6 +47,9 @@ namespace ExLINQ
 
             List<OrderItem> allOrderItems = orders.SelectMany(o => o.OrderItems).ToList();
 
+            List<List<OrderItem>> Listitems = orders.Select(o => o.OrderItems).ToList();
+
+           
             decimal totalPrice = allOrderItems.Sum(oi => oi.Price * oi.Quantity);
 
             Console.WriteLine($"Total Price of all order items: {totalPrice}");
