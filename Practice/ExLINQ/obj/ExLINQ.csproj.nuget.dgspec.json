@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\C-Sharp\\Practice\\ExLINQ\\ExLINQ.csproj": {}
+    "D:\\Repository\\1000\\CSharp\\Practice\\ExLINQ\\ExLINQ.csproj": {}
   },
   "projects": {
-    "D:\\repos\\C-Sharp\\Practice\\ExLINQ\\ExLINQ.csproj": {
+    "D:\\Repository\\1000\\CSharp\\Practice\\ExLINQ\\ExLINQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\C-Sharp\\Practice\\ExLINQ\\ExLINQ.csproj",
+        "projectUniqueName": "D:\\Repository\\1000\\CSharp\\Practice\\ExLINQ\\ExLINQ.csproj",
         "projectName": "ExLINQ",
-        "projectPath": "D:\\repos\\C-Sharp\\Practice\\ExLINQ\\ExLINQ.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\C-Sharp\\Practice\\ExLINQ\\obj\\",
+        "projectPath": "D:\\Repository\\1000\\CSharp\\Practice\\ExLINQ\\ExLINQ.csproj",
+        "packagesPath": "C:\\Users\\Neo\\.nuget\\packages\\",
+        "outputPath": "D:\\Repository\\1000\\CSharp\\Practice\\ExLINQ\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Neo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
